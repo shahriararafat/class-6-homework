@@ -132,13 +132,12 @@ nav ul li a{
 .mid-container{
     height: 2070px;
     width: 1900px;
-    border: 3px solid red;
+    row-gap: 200px;
 }
 
 .first-part{
     width: 1900px;
     height: 790px;
-    border: 1px solid black;
     margin-top: 152px;
     justify-content: center;
     align-items: center;
@@ -164,6 +163,99 @@ nav ul li a{
     align-items: center;
 }
 
+.second-part{
+    width: 1900px;
+    height: 1160px;
+    margin-top: 100px;
+    display: flex;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+.second-part-img img{
+    width: 700px;
+    height: 760px;
+    margin-left: 50px;
+}
+
+.second-part-text{
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 90px;
+    padding-top: 125px;
+
+}
+.second-part-text h1{
+    width: 437px;
+    height: 162px;
+    color: rgb(0, 0, 0);
+    font-family: Frank Ruhl Libre;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.second-part-text p{
+    width: 443px;
+    height: 186px;
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 65px;
+}
+
+.box{
+    color: rgb(255, 6, 6);
+    border: 1px solid red;
+    width: 1150px;
+    height: 280px;
+    margin-top: -475px;
+    margin-left: 700px;
+    background: #feecc8;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 70px;
+}
+
+.founded{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box h1{
+    color: rgb(0, 0, 0);
+    font-family: Podkova;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.box h1 span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.best-reviews{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.line-1{
+    border-left: 1px solid black;
+    height: 160px;
+    margin-left: 50px;
+}
+.line-2{
+    border-left: 1px solid black;
+    height: 160px;
+    margin-left: 50px;
+}
 
 /* mid container end here */
 
