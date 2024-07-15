@@ -1,7 +1,13 @@
+/* universal style start here */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
+
+/* universal style end here */
 
 nav{
     display: flex;
@@ -64,3 +70,54 @@ nav ul li a{
     background: #fae3b6;
     padding-top: 47px;
 }
+
+/* main section start here */
+.banner-container{
+    width: 1920px;
+    height: 800px;
+    background: #fae3b6;
+    padding-top: 110px;
+}
+
+.banner-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner-text h1{
+    width: 556px;
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 600px;
+    text-align: left;
+}
+
+.banner-text p{
+    width: 531px;
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 42px;
+    padding-bottom: 67px;
+}
+
+.banner-text button{
+    width: 266px;
+    height: 71px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600px;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+
+/* main section end here */
