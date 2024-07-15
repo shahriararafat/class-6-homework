@@ -9,6 +9,8 @@
 
 /* universal style end here */
 
+/* header section start here */
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -71,7 +73,11 @@ nav ul li a{
     padding-top: 47px;
 }
 
+/* header section end here */
+
 /* main section start here */
+
+/* banner section start here */
 .banner-container{
     width: 1920px;
     height: 800px;
@@ -118,6 +124,48 @@ nav ul li a{
     border: none;
     
 }
+
+/* banner section end here */
+
+/* mid container start here */
+
+.mid-container{
+    height: 2070px;
+    width: 1900px;
+    border: 3px solid red;
+}
+
+.first-part{
+    width: 1900px;
+    height: 790px;
+    border: 1px solid black;
+    margin-top: 152px;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-part-text{
+    width: 437px;
+    height: 162px;
+    color: rgb(0, 0, 0);
+    font-family: Frank Ruhl Libre;
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 37%;
+}
+
+.first-part-text h1{
+    text-align: center;
+}
+
+.first-part-img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* mid container end here */
 
 
 /* main section end here */
